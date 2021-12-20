@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="tm5Y6ZNTf-lBqbwniGjQPv1q02o2TuUQZ9GTYa4SMLg" />
+  <title>Craig Frayne — palabra.ca</title>
+  <link rel="shortcut icon" type="image/jpg" href="images\fedalon_logo.png"/>
+
+  <meta name="description"
+    content="A minimal, almost class-less CSS library to write modern websites that look like LaTeX documents." />
+  <meta name="keywords" content="latex.css,css library,class-less css,latex css" />
+  <meta property="og:title" content="LaTeX.css" />
+  <meta property="og:url" content="https://latex.now.sh" />
+  <meta property="og:description"
+    content="A minimal, almost class-less CSS library to write modern websites that look like LaTeX documents." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="styles/custom.css" />
+  <link rel="stylesheet" href="prism/prism.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+
+<body id="top">
+
+ 
+<div class="topnav">
+    <!-- <img src="images\fedalon_logo.png" width="70px" height="70px"> -->
+    <a class="active" href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#consulting">Services</a>
+    <a href="#design">Portfolio</a>
+    <a href="#writing">Writing</a>
+    
+</div>   
+
+  <header>
+    <h1>Palabra<span class="dot">.</span></h1>
+    <p class="author">
+      Craig Frayne <br />
+      December 2021
+    </p>
+  </header>
+
+  <div class="abstract" id="about">
+    <h2>About</h2>
+    <p>
+        My name is Craig Frayne. I'm a writer and digital designer based in Ontatio, Canada. This website is in <span class="latex">L<span>a</span>T<span>e</span>X</span>.css. If you prefer a darker typeface you can change it here:
+      <button id="typeface-toggle">Typeface: <span id="typeface">Latin Modern</span></button> 
+     </p>
+      <br> 
+      <p>
+      You can connect with me on  <a href="https://www.linkedin.com/in/craigfrayne/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a> or <a href="https://github.com/craigmateo" target="_blank"><i class="fab fa-github"></i> GitHub</a>.
+    </p>
+  </div>
+  <p><span class="expand-photo"  onclick="changeImage()"><i class="fas fa-expand"></i> Profile photo </span>
+      <figure>
+        <img id="imgClickAndChange" src="images/person-icon.png"
+          loading="lazy" alt="Craig Frayne photo" style="margin: auto;width:10%;"/>
+      </figure>
+    </p>
+
+  <main>
+    <article>
+      <h2 id="experience">Experience</h2>
+
+      <p>Over my career, I've worked with research consultancies, local and international non-profits, and software startups.</p> 
+
+      <p>Currently, I am doing full stack web development, visualization, and interaction design with a focus on e-learning. I am also doing independent research on applications of hyperspectral remote sensing.</p>
+
+      <p>My aim is to contribute to hands-on projects that are original and add value.</p>
+
+      <br>
+      <a href="files\CV_Craig_Frayne.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Resume (Professional)</a> | <a href="files\Academic_CV.pdf" target="_blank"><i class="fas fa-file-pdf"></i> CV (Academic)</a> 
+      
+
+      <h4>Freelance / Contract</h4> 
+      <img class="fas" src="images\fedalon_logo.png" width="50px" height="50px">
+      <div> <span class="dot">Palabra Technical</span> <span class="years">2010-Present</span>
+        <ul>
+        <li>Front end web design, JavaScript programming, graphic design, technical writing, ux writing,
+        translation, digital media</li>
+        <li>Research, project design, and delivery for non-profits and SMEs</li>
+        </ul>
+      <h4>Recent Roles</h4>
+
+      <div>Project Manager at  <a href="https://www.digitaled.com/" target="_blank">DigitalEd</a><span class="years">2018-2020</span>
+      <span class="location">Waterloo, Ontario</span>
+    </div> 
+      <div>Data Analyst at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-montreal/" target="_blank">Microsoft Research </a> <span class="sidenote">Maluuba acqusition in Feb. 2017.</span><span class="years">2016-2018</span>
+        <span class="location">Montreal, Quebec</span>
+    </div>
+
+      <h4>Education</h4>
+      <div>PhD at  <a href="https://tu-freiberg.de/en" target="_blank">TU Bergakademie Freiberg</a>
+        <span class="location">Saxony, Germany</span>
+        <a href="https://tubaf.qucosa.de/landing-page/?tx_dlf[id]=https%3A%2F%2Ftubaf.qucosa.de%2Fapi%2Fqucosa%253A74856%2Fmets" target="_blank"><i class="fas fa-external-link-alt"></i> Dissertation</a>
+      </div> 
+
+      <h2 id="consulting">Services</h2>
+
+      <table>
+        <caption>What I do.</caption>
+        <thead>
+          <tr>
+            <th class="icon"><i class="fas fa-comments icon"></i> <br>Technical Communication</th>
+            <th class="icon"><i class="fas fa-code icon"></i> <br>Programming & Data</th>
+            <th class="icon"><i class="fas fa-tasks icon"></i> <br>Project Management & Consulting</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+            <ul class="table-list">
+                <li>Reports</li>
+                <li>Whitepapers</li>
+                <li>Articles</li>
+                <li>Peer Reviewed Research</li>
+                <li>Digital Publishing</li>
+                <li>UX Writing</li>
+            </ul>    
+            </td>
+            <td>
+                <ul class="table-list">
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>Full Stack</li>
+                    <li>Visualization</li>
+                    <li>Data Analysis</li>
+                    <li>GIS</li>
+                </ul>      
+                
+            </td>
+            <td>
+                <ul class="table-list">
+                    <li>PMP</li>
+                    <li>Project Development</li>
+                    <li>Reporting</li>
+                    <li>Agile</li>
+                    <li>Tools & Processes</li>
+                </ul> 
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+          
+      <h2 id="design">Portfolio</h2>
+      <i class="fas fa-wrench"></i> <i>I'm currently updating my online portfolio. Please contact me for work samples, including:</i><br><br>
+
+      <div class="tabs">
+        <button class="tablinks" onclick="openCity(event, 'London')"><i class="far fa-object-group"></i> Web Design</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')"><i class="fas fa-crop-alt"></i> UI/UX</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')"><i class="fas fa-paint-brush"></i> Graphic Design</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')"><i class="far fa-chart-bar"></i> Data Visualization</button>
+      </div>
+      <div class="tabs">
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')"><i class="fas fa-globe-americas"></i> Geomatics</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')"><i class="fas fa-drafting-compass"></i> Technical Drawing</button>
+      </div>
+
+
+      <h4 id="design">Tools I use</h4>
+      <b><i>Digital world</i></b><br>
+      <span><i class="fab fa-python"></i> Python</span> | <span><i class="fab fa-js"></i> JavaScript</span> | <span><i class="fas fa-file-pdf"></i> Adobe CS</span> | <span><i class="fab fa-r-project"></i> R</span> | <span><i class="fas fa-globe-africa"></i> QGIS & ArcGIS</span> | <span><i class="fab fa-php"></i> PHP</span> <br>
+      <span><i class="fas fa-square-root-alt"></i> LaTeX</span> | <span><i class="fas fa-database"></i> SQL</span> | <span><i class="fab fa-html5"></i> HTML5</span> | <span><i class="fab fa-css3-alt"></i> CSS</span> | <span><i class="fab fa-osi"></i> OpenSource</span> | <span><i class="fas fa-drafting-compass"></i> Solidworks & AutoDesk</span> | <span><i class="fab fa-jira"></i> JIRA</span> | <span><i class="fab fa-google"></i> Google Apps</span> | <span><i class="fab fa-raspberry-pi"></i> Raspberry Pi</span>
+      <br><br>
+      <b><i>Physical world</i></b><br>
+      <span><i class="fas fa-tractor"></i> Kubota</span> | <span><i class="fas fa-tools"></i> Dewalt</span> | <span><i class="fas fa-tree"></i> Fiskars</span> | <i class="fas fa-pencil-ruler"></i> Staedtler & Faber-Castell</span>
+
+      <h2 id="writing">Recent Writing</h2>
+        <div class="post">
+        <a href="posts\gm-discourse.html" target="_blank">Corpus-based analysis of genetically modified seed discourse</a>
+        <p>This paper uses corpus linguistic analysis to draw out various dimensions of debates related to genetically modified (GM) seed.</p>
+        </div>
+
+        <div class="post">
+            <a href="posts\multilevel.html" target="_blank">Multilevel discourse analysis: a methodological response to the ecological turn in ICC research</a>
+            <p>Presentation at the 71st Annual International Communication Association Conference.</p>
+        </div>
+
+        <div class="post">
+            <a href="https://www.euppublishing.com/doi/abs/10.3366/cor.2019.0177?journalCode=cor" target="_blank">An historical analysis of species references in American English</a>
+            <p>This study uses the two largest available American English language corpora to investigate relations between ecology and language.</p>
+        </div>
+
+
+
+    
+      </div>
+  </main>
+
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'],],
+      },
+    }
+    const toggle = document.getElementById('typeface-toggle')
+    const typeface = document.getElementById('typeface')
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('libertinus')
+      typeface.textContent = document.body.classList.contains('libertinus') ? 'Libertinus' : 'Latin Modern'
+    })
+
+    function changeImage() {
+
+      var img = document.getElementById("imgClickAndChange").src;
+
+      if (img.includes("images/person-icon.png"))
+      {
+        
+          document.getElementById("imgClickAndChange").src = "images/profile.webp";
+          document.getElementById("imgClickAndChange").style.width = "40%";
+      }
+      else
+      {
+          document.getElementById("imgClickAndChange").src = "images/person-icon.png";
+          document.getElementById("imgClickAndChange").style.width = "10%";
+      }
+      }
+
+
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script async src="prism/prism.js"></script>
+
+  <script async defer data-domain="latex.now.sh" src="https://plausible.io/js/plausible.js"></script>
+</body>
+
+</html>
