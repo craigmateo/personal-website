@@ -25,6 +25,7 @@
   .topnav a.active {
     color: #0c8381;
     font-weight: 600;
+    background-color: none;
   }
 
   .years {
@@ -81,13 +82,39 @@
     margin-top:0;
 }
 
-.dot {
+.dotg {
     color: #0c8381;
     font-size: 120%;
 }
 
-.expand-photo {
+.expand-photo, .expand-pres {
     cursor: pointer;
     color: #0c8381;
     text-decoration: underline;
 }
+
+
+.jump {
+    margin-top: 2rem;
+}
+
+/* Embed Slides */
+
+.responsive-google-slides {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-top: 75%;
+    cursor: pointer;
+
+    
+  }
+
+  iframe {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    
+  }
