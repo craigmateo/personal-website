@@ -118,3 +118,8 @@
     cursor: pointer;
     
   }
+ 
+  /* The "show" class is added to the filtered elements */
+  .hidden{ display: none; }
+
+  .show{ display: block; }
