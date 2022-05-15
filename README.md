@@ -2,4 +2,4 @@
 Website using LaTeX.css.
 https://craigfrayne.com/
 
-![](image.png)
+![](/craigmateo/personal-website/blob/main/images/preview.png)
